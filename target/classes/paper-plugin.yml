@@ -1,0 +1,16 @@
+name: UhcLoon
+version: '1.0-SNAPSHOT'
+main: me.itristan.uhcLoon.UhcLoon
+api-version: '1.21'
+author: De1fy
+description: Плагин для настройки режима Ultra Hardcore (UHC).
+
+commands:
+  startuhc:
+    description: Запуск игры в режиме UHC.
+    usage: /startuhc
+    permission: uhcplugin.start
+permissions:
+  uhcplugin.start:
+    description: Разрешение на запуск команды /startuhc.
+    default: op
